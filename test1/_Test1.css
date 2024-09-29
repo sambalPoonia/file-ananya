@@ -1,0 +1,50 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0; /* Remove default margin */  
+} 
+
+header{
+    font-size: xxx-large;
+    padding: auto;
+    text-align: center;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     background-color: #a06060;
+} 
+h2{
+    background-color: rgba(49, 38, 38, 0.35);
+}
+.styled-image{
+    max-width: 100%; /* Ensure image is responsive */  
+    height: auto;  
+    border: 5px solid #a06060; /* Blue border */  
+    border-radius: 15px; /* Rounded corners */  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */  
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition on hover */
+}  
+
+
+.navbar {  
+    background-color: #2e2121; /* Background color of the navbar */  
+    padding: 10px 20px; /* Spacing around the navbar */  
+}  
+
+.nav-links {  
+    list-style-type: none; /* Remove bullet points */  
+    margin: 0; /* Remove default margin */  
+    padding: 0; /* Remove default padding */  
+    display: flex; /* Arrange items in a row */
+    font-size: larger;  
+}  
+
+.nav-links li {  
+    margin-right: 20px; /* Space between links */  
+}  
+
+.nav-links a {  
+    color: white; /* Link color */  
+    text-decoration: none; /* Remove underline */  
+    padding: 100px; /* Spacing inside the link */  
+    transition: background-color 0.2s; /* Smooth hover effect */  
+}  
+
+ 

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blog Post Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #eff0d8;
+        }
+
+        .card {
+            justify-content: center;
+            background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(31, 28, 28, 0.2);
+            overflow: hidden;
+            padding: 25px;
+            max-width: 300px;
+            text-align: center;
+            transition: transform 0.25s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+
+
+        .card-title {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+        }
+
+        .card-image {
+            width: 100%;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+
+        .card-description {
+            overflow-wrap: break-word;
+            margin: 10px 0;
+        }
+
+        .card-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #ffffff;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .card-link:hover {
+            background-color: #f0f0f0;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h2 class="card-title">chess</h2>
+        <img src="chess.jpg" alt="Blog Post Image" class="card-image">
+        <p class="card-description">
+            Chess is a two-player strategy board game played on an 8x8 grid, featuring 16 pieces per player: one king,
+            one queen, two rooks, two knights, two bishops, and eight pawns. 
+        </p>
+        <a href="#" class="card-link">Read More</a>
+    </div>
+</body>
+
+</html>

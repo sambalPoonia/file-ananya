@@ -1,0 +1,91 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Resume</title>  
+    <style>
+        body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+.resume {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center; /* Center the items horizontally */  
+    padding: 30 px;  
+    max-width: 800px;  
+    margin: auto; /* Center the resume on the page */  
+}  
+
+section {  
+    width: 100%; /* Make each section full width */  
+    margin: 10px 0;  
+    padding: 10px;  
+    border: 1px solid #19442b;  
+    border-radius: 5px;  
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  
+}  
+
+.skills-container {  
+    display: flex;  
+    justify-content: space-between; /* Space the skills evenly */  
+    align-items: center; /* Center skills bar vertically */  
+    margin-top: 10px;  
+}  
+
+.skill {  
+    flex: 1; /* Allow skill items to grow equally */  
+    margin: 0 10px; /* Margin between skill items */  
+}  
+
+.skill-name {  
+    text-align: center; /* Center skill names */  
+    margin-bottom: 5px;  
+}  
+
+.skill-bar {  
+    background-color: #4CAF50; /* Skill proficiency bar color */  
+    height: 10px; /* Height of the skill bar */  
+    border-radius: 5px; /* Rounded corners */  
+    transition: width 0.5s; /* Smooth transition for growth */  
+} 
+    </style>
+</head>  
+<body> 
+    <h1 style="text-align: center; background-color: #4CAF50;"> Resume</h1> 
+    <div class="resume">  
+        <section class="about-me">  
+            <h2>About Me</h2>  
+            <p>A brief description about myself.</p>  
+        </section>  
+        <section class="experience">  
+            <h2>Experience</h2>  
+            <p>Details about my work experience.</p>  
+        </section>  
+        <section class="skills">  
+            <h2>Skills</h2>  
+            <div class="skills-container">  
+                <div class="skill">  
+                    <div class="skill-name">HTML</div>  
+                    <div class="skill-bar" style="width: 90%;"></div>  
+                </div>  
+                <div class="skill">  
+                    <div class="skill-name">CSS</div>  
+                    <div class="skill-bar" style="width: 80%;"></div>  
+                </div>  
+                <div class="skill">  
+                    <div class="skill-name">Python</div>  
+                    <div class="skill-bar" style="width: 70%;"></div>  
+                </div>  
+            </div>  
+        </section>  
+        <section class="education">  
+            <h2>Education</h2>  
+            <p>Details about my educational background.</p>  
+        </section>  
+    </div>  
+</body>  
+</html>  
